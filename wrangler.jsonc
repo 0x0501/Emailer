@@ -1,0 +1,17 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "emailer",
+	"compatibility_date": "2026-05-01",
+	"compatibility_flags": [
+		"nodejs_compat",
+    "enable_nodejs_process_v2"
+	],
+	"main": "@tanstack/react-start/server-entry",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "emailer",
+			"database_id": "d4d0d059-7a60-47d9-bd01-9c1f6b7aa038"
+		}
+	]
+}
