@@ -11,7 +11,8 @@
 		{
 			"binding": "DB",
 			"database_name": "emailer",
-			"database_id": "d4d0d059-7a60-47d9-bd01-9c1f6b7aa038"
+			"database_id": "d4d0d059-7a60-47d9-bd01-9c1f6b7aa038",
+			"migrations_dir": "drizzle"
 		}
 	]
 }
